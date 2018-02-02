@@ -83,7 +83,7 @@
             android:textSize="30.0dp"
             android:visibility="invisible" />
 
-        <com.riyu365.pkusky.utils.Tools.SideBar
+        <com.sxl.sxllibrary.selectcountrynumber.SideBar
             android:id="@+id/country_sidebar"
             android:layout_width="30dp"
             android:layout_height="match_parent"
