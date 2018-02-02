@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SxlGiftPacks</string>
+    <string name="select_city">选择国家和地区</string>
+    <string name="search">搜索</string>
+    <string name="onloading">正在下载：</string>
+    <string name="findnew">发现新版本</string>
+    <string name="cancal">取消</string>
+    <string name="downloadnow">现在下载</string>
+</resources>
