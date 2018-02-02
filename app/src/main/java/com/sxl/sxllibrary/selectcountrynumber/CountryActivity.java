@@ -21,6 +21,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import static com.sxl.sxllibrary.selectcountrynumber.Config.COUNTRYNUMBER;
+
 /**
  * 类简要描述
  * <p/>
@@ -54,7 +56,6 @@ public class CountryActivity extends Activity implements View.OnClickListener {
 
     private CharacterParserUtil characterParserUtil;
     private ImageView iv_back;
-    String COUNTRYNUMBER="+86";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
