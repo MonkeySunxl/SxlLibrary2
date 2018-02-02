@@ -20,4 +20,10 @@
   版本更新用法:
       new CheckVersion(context,newVersion,downLoadUrl);
     
-  国际号: 跳转到CountryActivity  
+  国际号:获取界面跳转到CountryActivity  选择国际号,选择完  在获取界面  
+  @Override
+    protected void onResume() {
+        super.onResume();
+	//Config.COUNTRYNUMBER
+        tvSelectCity.setText(Config.COUNTRYNUMBER);
+    }  
