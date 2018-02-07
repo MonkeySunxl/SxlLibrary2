@@ -14,7 +14,7 @@
 
 2:
 	dependencies {
-	        compile 'com.github.MonkeySunxl:SxlLibrary:1.1.1'
+	        compile 'com.github.MonkeySunxl:SxlLibrary:2.1'
 	}
   
   版本更新用法:
