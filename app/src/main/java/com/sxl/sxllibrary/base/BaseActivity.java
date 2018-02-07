@@ -21,6 +21,8 @@ public abstract class BaseActivity extends AppCompatActivity {
 //                WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);//保持屏幕常亮
 //        requestWindowFeature(Window.FEATURE_NO_TITLE);//隐藏标题栏
         setContentView(getLayoutId());
+        // 添加Activity到堆栈
+        AppManager.getAppManager().addActivity(this);
         initBefore(savedInstanceState);
         context=this;
         ButterKnife.bind(this);
